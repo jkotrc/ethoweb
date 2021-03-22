@@ -1,0 +1,69 @@
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    margin-right:60px;
+    margin-top: 15px;
+}
+
+#navbar img {
+    width:5%;
+    height:5%;
+    padding:14px;
+}
+
+#navbar a {
+    float:right;
+    display:block;
+    color: black;
+    text-align:center;
+    padding:14px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width:100%;
+
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#headline {
+    display: flex;
+    grid-template-columns: 100px;
+    text-align: center;
+    margin-right:auto;
+    max-height: 400px;
+}
+
+#headline .element {
+    margin: 0 auto;
+}
+
+#headline .bar {
+    max-width:100%;
+    max-height:100%;
+}
+
+#headline .phones {
+    max-width:100%;
+    max-height:100%;
+}
+
+#headline-container img{
+    float:left;
+    margin-right:10px;
+}
+
+#headline-text h1 {
+    text-align:left;
+    font-size:30px;
+}
+#headline-text p {
+    text-align:left;
+}
+#headline-media {
+    text-align:left;
+}
